@@ -1,0 +1,79 @@
+.formContainer{
+    justify-content: center;
+    background-color: black;
+    width: 270px;
+    border-radius: 20px;
+    margin:auto; 
+    
+}
+
+.titulo{
+    color: #70e000;
+   
+}
+
+.submit{
+    margin: 20px;
+}
+
+.labelEmail{
+  color: #ecf39e;
+  margin-bottom: 30px;
+  
+}
+
+.labelPassword{
+  color: #ecf39e;
+}
+
+.inputForm{
+    
+        border: none;
+        border-radius: 15px;
+        padding: 10px;
+        background-color: #70e000;
+        
+        font-size: medium;
+        font-weight: bold;
+        max-width: 200px;
+}
+
+.inputForm:focus {
+    outline-color: #ffffff;
+   }
+
+.inputForm placeholder{
+    color: rgb(0, 0, 0);
+   }
+
+.erroresEmail{
+     color: red;
+     justify-content: center;
+     font-size: small;
+   }
+
+.erroresPassword{
+     color: red;
+     justify-content: center;
+     font-size: small;
+   }
+
+.submit{
+    border-radius: 15px;
+    padding: 10px;
+    cursor:pointer;
+    color:#70e000;
+    border-color: #70e000;
+    background-color: black;
+    transition: box-shadow 0.15s ease-in-out;
+    border-style: solid;
+    /* box-shadow: 6px 6px 12px #7e7b51,
+    -6px -6px 12px #7e7b51; */
+}
+
+.submit:hover{
+  box-shadow: inset 0px 0px 5px #70e000;
+  transition: box-shadow 0.15s ease-in-out;
+  transform: scale(0.95);
+  transition: all 0.3s;
+}

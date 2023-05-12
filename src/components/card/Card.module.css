@@ -1,0 +1,72 @@
+.contenedor{
+    display: inline-block;
+    
+    /* background-color: #BDB76B; */
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.imagen {
+    width:180px;
+   border-radius: 15px;
+   border-style: none;
+   /* border-color:#70e000; */
+   justify-content: center;
+   filter: grayscale(100%);
+}
+
+.imagen:hover {
+    /* transform: scale(0.95);
+    transition: all 0.3s; */
+    filter: none;
+   }
+
+.boton{
+    justify-content: center;
+    border-radius: 7px;
+    width: 67px;
+    background-color: #70e000;
+    transition: box-shadow 0.15s ease-in-out;
+    border-style: none;
+    cursor:pointer;
+}
+
+.boton:hover {
+    transform: scale(0.95);
+    transition: all 0.3s;
+    box-shadow: inset 0px 0px 5px rgb(0,0,0);
+    transition: box-shadow 0.15s ease-in-out;
+    
+   }
+
+.cardText{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-left: 0.5cm;
+    font-size: small;
+    background-color: rgb(0,0,0);
+    color:#70e000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    padding:5px;
+    
+    /* box-shadow: 2px 2px 10px #979361,
+               -2px -2px 10px #a09d78; */
+    cursor:pointer;
+   
+}
+
+.cardText:hover {
+    transform: scale(0.95);
+    transition: all 0.3s;
+    
+   }
