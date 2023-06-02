@@ -25,9 +25,8 @@ const getCharById = async (req,res)=>{
 }
 
 
-module.exports ={
-    getCharById
-}
+module.exports =getCharById
+
 
 // const getCharById = (res, id)=>{
 //    axios(`https://rickandmortyapi.com/api/character/${id}`)
